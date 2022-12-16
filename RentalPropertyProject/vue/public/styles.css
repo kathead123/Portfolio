@@ -1,0 +1,312 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Metal+Mania&display=swap');
+
+
+body {
+    font-family: 'Metal Mania', cursive;
+    background: rgb(252 194 24);
+    margin: 0;
+    }
+    h1{
+        text-align: center;
+    }
+    p{
+        text-align: center;
+    }
+
+    [v-cloak] {
+        display: none;
+    }
+
+    .form-signin{
+        grid-area: form;
+        text-align: center;
+    }
+
+    .image2 {
+        grid-area: image2;
+
+    }
+    .image2 img{
+        height:60vh;
+        
+    }
+
+    #container2{
+        display: grid;
+        background-color: rgb(229, 226, 226);
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:  "form image2";  
+        
+    }
+
+    .form-register {
+        grid-area: form-register;
+        margin-top:-12px;
+    }
+    .image {
+        grid-area: image;
+    }
+
+    .container3{
+        display: grid;
+        background-color: rgb(229, 226, 226);
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:  "add-property-form image3";  
+        padding-bottom: 50px;
+        padding-top: 30px;
+        margin-top:12px;   
+        padding-left: 200px;  
+    }
+
+    #add-property-form{
+        grid-area: add-property-form
+    }
+    .image3{
+        grid-area: image3
+    }
+
+
+
+    .image img{
+        height: 60vh;
+        margin-top:22px;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        box-shadow: 5px 5px 10px rgb(80, 80, 80);
+    }
+    .container {
+            display: grid;
+            background-color: rgb(229, 226, 226);
+            grid-template-columns: 1fr 1fr;
+            grid-template-areas: "form-register image";    
+            padding-bottom: 50px;
+            padding-top: 30px;
+            margin-top:12px;   
+            padding-left: 200px;         
+    }
+
+    .image-div {
+        overflow: hidden;
+        object-fit: cover;
+        text-align: center;  
+        border-top-right-radius: 15px;
+        border-top-left-radius: 15px;
+        
+        
+    }
+    .prop-image {
+        object-fit: cover;
+  width: 230px;
+  height: 230px;
+        width:100%;
+        vertical-align: middle;
+        
+    }
+    .property {
+        background-color:rgb(236, 232, 232);
+        border-radius: 20px;
+        margin:25px;
+        margin-bottom: 10px;
+        width: 25%;
+        text-align: center;
+        box-shadow: 5px 5px 10px rgb(80, 80, 80);
+        
+        
+        
+    }
+
+    .property-listing {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(229, 226, 226);
+        margin-top: 5px;
+        margin-bottom: 5px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        flex-wrap: wrap;
+
+    }
+.property-listing h2{
+    font-size: 18px;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-bottom: 15px;
+}
+
+    .header-image{
+        max-width: 400px;
+        margin-left: -25px;
+        margin-top: -10px;
+        margin-bottom: -45px;
+    }
+    .banner-image{
+        width: 100%;
+        
+    }
+    .home-welcome{
+        display: flex;
+        flex-direction: column;
+        position: relative; 
+        margin-top: 10px; 
+    }
+    .home-welcome h1{
+        font-family: 'Creepster', cursive;
+    
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        color: black;  
+    }
+    .add-property-link {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 10px;
+        padding: 5px;
+        
+       
+        
+    }
+    .add-property-link a {
+        background-color: white;
+        color: #2A697A;
+        text-decoration: none;
+        border-radius: 5px;
+        padding: 10px;
+    }
+
+    .add-property-link a:hover {
+        background-color: #2A697A;
+        color: white;
+    }
+
+    .need-account {
+        background-color: white;
+        color: #2A697A;
+        text-decoration: none;
+        border-radius: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-bottom: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .need-account:hover {
+        background-color: #2A697A;
+        color: white;
+    }
+
+    #nav a {
+        background-color: white;
+        color: #2A697A;
+        text-decoration: none;
+        border-radius: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-bottom: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    #nav a:hover {
+        background-color: #2A697A;
+        color: white;
+    }
+
+    #nav {
+        margin-left: 10px;
+    }
+
+    .sr-only {
+        padding-left: 10px;
+    }
+
+    .available-rentals-div {
+        background-color: rgb(229, 226, 226);
+        font-size: 25px;
+        text-align: center;
+        margin-bottom: -60px;
+        padding-top: 5px;
+
+    }
+
+    .formField {
+        margin-left: 20px;
+    }
+
+    .button {
+        margin-left: 20px;
+        margin-bottom: 30px;
+        padding-left: 20px;
+        padding-right: 20px;
+        background-color: #f16831;
+        font-family: 'Metal Mania', cursive;
+        font-size: 14px;
+    }
+
+    .button:hover {
+        background-color: black;
+        color: #f16831
+    }
+
+    .amount-due {
+        text-align: center;
+    }
+
+    .pay-rent-button {
+        background-color: #f16831;
+        font-family: 'Metal Mania', cursive;
+        font-size: 14px;
+        text-align: center;
+        padding: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-bottom: 5px;
+    }
+
+    .pay-rent-button:hover {
+        background-color: black;
+        color: #f16831
+    }
+
+    .rent-button {
+        text-align: center;
+        
+    }
+
+    .confirm-checkbox {
+        text-align: center;
+
+    }
+
+    .rented-button {
+        background-color: #f16831;
+        font-family: 'Metal Mania', cursive;
+        font-size: 14px;
+        text-align: center;
+        padding: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-bottom: 5px;
+    }
+    .rent-status {
+        margin-bottom: 30px;
+        margin-left: 10px;
+        margin-right: 10px;
+        border: solid 2px black;
+        background-color: #f16831;
+        
+    }
+  
+    
+
+   
+    
+    @media only screen and (max-width: 650px) {
+        .home-welcome h1{
+              
+        }
+       }
